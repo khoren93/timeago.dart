@@ -29,6 +29,8 @@ final localesMap = <String, LookupMessages>{
   'en_custom': CustomEnglish(),
   'ro': RoMessages(),
   'ro_short': RoShortMessages(),
+  'hy': HyMessages(),
+  'hy_short': HyShortMessages(),
 };
 
 final localeList = ['en', 'en_short', 'es', 'es_short', ...localesMap.keys];
